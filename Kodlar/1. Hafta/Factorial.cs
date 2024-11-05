@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,10 +6,10 @@ public class Factorial : MonoBehaviour
 {
     public int value;
 
-    int result = 1;
+    private int result = 1;
     void Start()
     {
-        //for (değişken tanımı; koşul; artış miktarı)
+        //for (deÄŸiÅŸken tanÄ±mÄ±; koÅŸul; artÄ±ÅŸ miktarÄ±)
 
         for(int i = 1; i <= value; i++)
         {

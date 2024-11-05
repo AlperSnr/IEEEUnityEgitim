@@ -1,21 +1,21 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Variables : MonoBehaviour
 {
-    public int age;
-    public float chance;
-    public string names;
-    public bool isMale;
+    public int age; // integer, tam sayı
+    public float chance; // floating point, ondalıklı sayı
+    public string isim; // karakter dizisi,yazı
+    public bool isMale; // true,false
     
     void Start()
     {
-        print("Ya� " + age);
-        print("�ans " + chance);
-        print("�sim " + names);
+        print("Yaş " + age);
+        print("Şans " + chance);
+        print("Isim " + isim);
 
-        age = 5;
+        //age = 5;
 
         if (isMale == true)
         {
@@ -23,16 +23,17 @@ public class Variables : MonoBehaviour
         }
         else if(isMale == false)
         {
-            print("Kad�n");
+            print("Kadın");
         }
 
-        if (age < 10)
-        {
 
-        }else if(age < 20)
-        {
+        //if (age < 10)
+        //{
 
-        }
+        //}else if(age < 20)
+        //{
+
+        //}
         
 
         print("test");

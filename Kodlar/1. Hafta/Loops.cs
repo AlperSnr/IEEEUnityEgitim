@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -17,13 +17,13 @@ public class Loops : MonoBehaviour
             print("Test");
         }
 
-        sayi++;
-        sayi = sayi + 1;
-        sayi += 1;
+        //sayi++;
+        //sayi = sayi + 1;
+        sayi += 1; // üçü de aynı işlevi görür.
 
         for (int i = 0;i < 10;i++)
         {
-            print(i); // i yi yazd�r�r.
+            print(i);
         }
 
         while (can > 0)
